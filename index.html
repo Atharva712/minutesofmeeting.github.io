@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meeting Review</title>
+
+  <!-- link style -->
+  <link rel="stylesheet" href="styleIndex.css" />
+
+</head>
+
+<body>
+  <div>
+    <h1 class="mom">Minutes of Meeting</h1>
+  </div>
+
+  <!-- capsule section -->
+  <section id="hero">
+    <div class="hero-wrapper">
+
+      <div class="container">
+
+
+        <!--LEFT SECTION -->
+
+
+        <div class="left-section">
+          <div class="mainZoom">
+            <div class="zoom">
+
+              <div class="part1">
+
+                <div class="heading-zoom">
+                  <h2 class="scrum">Daily Scrum Meeting</h2>
+                  <img class="zoom-logo" src="iconPack/zoom.png" alt="zoom">
+                  <h3 class="logo-text">Zoom</h3>
+                </div>
+
+
+
+                <p class="data-value">Date : 04/05/2023</p><br class="required">
+
+                <p class="scrum-text">
+                  Daily Stand up AI-ed team working on PRD 1Project
+                </p>
+              </div>
+              <hr class="hr-style">
+
+              <div class="scroll-content">
+                <div class="part2">
+
+                  <div class="owner">
+                    <p class="text-owner">Owner</p>
+                    <img class="circle-tree" src="iconPack/tree.jpg" alt="img">
+                  </div>
+
+                  <hr class="hr-vertical">
+
+                  <div class="watcher">
+                    <p>Watcher</p>
+                    <div class="tree-wrapper">
+                      <img style="border-color: yellow;" class="circle-tree" src="iconPack/tree.jpg" alt="img">
+                      <img style="border-color: yellow;" class="circle-tree" src="iconPack/tree.jpg" alt="img">
+                      <p class="circle-plus3">+3</p>
+                    </div>
+                  </div>
+                  <hr class="hr-vertical">
+
+                  <div class="participants">
+                    <p class="text-owner">Participants</p>
+                    <div class="tree-wrapper">
+                      <img style="border-color: red;" class="circle-tree" src="iconPack/tree.jpg" alt="img">
+                      <img style="border-color: red;" class="circle-tree" src="iconPack/tree.jpg" alt="img">
+                      <img style="border-color: red;" class="circle-tree" src="iconPack/tree.jpg" alt="img">
+                      <p class="circle-plus3">+12</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <hr class="hr-style">
+
+              <div class="hours">
+                <h4>Meeting Hour</h4>
+                <p>3 hr 20 minutes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- RIGHT SECTION -->
+
+        <div class="right-section">
+          <div class="right-container">
+
+            <div class="row">
+              <div class="agenda-tasks">
+                <div class="column1">
+                  <p>Agenda </p>
+                </div>
+                <div class="column2">
+                  <p>Tasks</p>
+                </div>
+              </div>
+
+              <div class="button-detailed">
+                <p>Detailed View</p>
+              </div>
+
+            </div>
+
+            <hr class="hr-right-style">
+
+            <div class="ux-ui">
+              <p class="ui-text">UX/UI Decision Making</p>
+
+              <p> UX/UI Products Edit</p>
+
+            </div>
+
+            <p>
+              Notes
+            </p>
+
+            <div class="notes">
+              <p class="points">Decision Point 1, Points- add actions here</p>
+
+              <p class="points">Insight, Points- add actions here</p>
+
+              <p class="points">Discussion, Points- add actions here</p>
+
+            </div>
+
+            <p class="resource">
+              Resources <span class="download-link">(Download Links)</span>
+            </p>
+
+            <div class="sales-buttons">
+
+              <div class="sales-btn">
+                <p>Sales.pptx</p>
+                <img class="download-png" src="iconPack/download_icon.png">
+              </div>
+
+              <div class="sales-btn">
+                <p>Sales.pptx</p>
+                <img class="download-png" src="iconPack/download_icon.png">
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+      </div>
+      <!-- BUTTONS WITH CALENDER  -->
+
+      <div class="button-group">
+
+        <div class="button1">
+          <p>Create Follow-up Meeting</p>
+        </div>
+
+        <div class="button2">
+          <p>Follow-up Meeting</p>
+        </div>
+
+        <div class="date-selector">
+          <div class="date">
+            <input type="date" name="date" />
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+
+  <!-- RATING / SUBMIT -->
+  <section id="bottom">
+    <div class="bottomWrapper">
+
+
+      <!--5 STAR RATINGS -->
+      <div class="rating-container">
+
+        <p class="feedback">Meeting Feedback</p>
+
+        <div class="five-star-pack">
+          <div class="rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <!-- COMMENT BOX -->
+
+      <div class="enter-comment">
+        <!-- <input class="typeComment" type="text" placeholder="Leave Comment"> -->
+        <textarea class="typeComment" placeholder="Leave Comment"></textarea>
+      </div>
+
+      <!--  CHECKBOX  -->
+
+      <div class="checkBoxSubmit">
+        <div class="checkbox-spacing">
+
+          <label>
+            <input type="checkbox" id="checkbox1" onclick="handleCheckboxClick()"> I agree to the Meetings Minutes
+          </label>
+          <br class="required">
+          <label>
+            <input type="checkbox" id="checkbox2" onclick="handleCheckboxClick()"> I Don't Agree to the Meetings Minutes
+          </label>
+
+        </div>
+
+        <!-- CLOSE / SUBMIT BUTTONS -->
+
+        <div class="button-container">
+
+          <div class="close-button">
+            <p>Close</p>
+          </div>
+
+
+          <div class="submit-button">
+            <P>Submit</P>
+          </div>
+
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </section>
+
+
+
+  <script src="meeting.js"></script>
+</body>
+
+</html>
